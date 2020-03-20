@@ -5,10 +5,10 @@ spring:
   # 解决Zipkin启动The bean 'characterEncodingFilter', defined in
   main:
     allow-bean-definition-overriding: true
-#  boot:
-#    admin:
-#      client:
-#        url: http://localhost:9004
+  boot:
+    admin:
+      client:
+        url: http://localhost:9002
 
 server:
   port: 9003
